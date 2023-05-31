@@ -52,7 +52,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 + range of data coordinates
 + objects attributes (shape, size, transparency, etc.)
 + abnormal types
-+ 
++ examples of training template and test frame
 
 ## Data Collection
 
