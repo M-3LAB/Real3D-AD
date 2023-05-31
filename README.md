@@ -32,7 +32,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 + brief describe our dataset in Table
   
-| Source | Class         | Size (length/width/height) | Transparency | TrainingNum (good) | TestNum (good) | TestNum (defect) | TotalNum | TrainingPoints (min/max/mean) | TestPoints (min/max/mean) | Δ |
+| Source | Class         | Size (length/width/height) | Transparency | TrainingNum (good) | TestNum (good) | TestNum (defect) | TotalNum | TrainingPoints (min/max/mean) | TestPoints (min/max/mean) | Anomaly Proportion Δ |
 |--------|---------------|----------------------------|--------------|-----------------|-------------|---------------|-------|----------------------------|---------------------------|--------|
 | 1      | airplane      |                            |              |                 |             |               |       |                            |                           |        |
 | 2      | barCandy      |                            |              |                 |             |               |       |                            |                           |        |
