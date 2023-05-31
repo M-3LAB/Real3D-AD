@@ -1,8 +1,8 @@
 # H3D-AD: A Dataset of High-Resolution 3D Anomaly Detection Tasks
 
-Jiaqi Liu$*$, Guoyang Xie$*$, Jinbao Wang$†$, Ruitao Chen, Xinpeng Li, Yong Liu, Chengjie Wang, and Feng Zheng$†$
+Jiaqi Liu*, Guoyang Xie*, Jinbao Wang†, Ruitao Chen, Xinpeng Li, Yong Liu, Chengjie Wang, and Feng Zheng†
 
-___(* Equal contribution; † Corresponding authors)___
+(* Equal contribution; † Corresponding authors)
 
 Our paper is summitted to NeurIPS 2023 Dataset & Benchmark Track. [[Paper]]()
 
