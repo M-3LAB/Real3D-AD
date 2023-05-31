@@ -16,31 +16,63 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 # H3D-AD
 
-## Introduction
+## Summary
++ draw object overview of all classes in H3AD-AD (give color snapshoot and 3d point clouds)
+
++ summary
 
 
+## Download
 
 $\bigstar$ To download the H3D-AD dataset for 3D anomaly detaction, click [Here]()
 
-## Data statistic
+## Dataset Statistic
 
++ brief describe our dataset in Table
+  
+|    | Class         | Training (good) | Test (good) | Test (defect) | Total | TrainPoints (min/max/mean) | TestPoints (min/max/mean) |   |
+|----|---------------|-----------------|-------------|---------------|-------|----------------------------|---------------------------|---|
+| 1  | airplane      |                 |             |               |       |                            |                           |   |
+| 2  | barCandy      |                 |             |               |       |                            |                           |   |
+| 3  | butterflyFish |                 |             |               |       |                            |                           |   |
+| 4  | chicken       |                 |             |               |       |                            |                           |   |
+| 5  | duck          |                 |             |               |       |                            |                           |   |
+| 6  | gemstone      |                 |             |               |       |                            |                           |   |
+| 7  | pacCandy      |                 |             |               |       |                            |                           |   |
+| 8  | seaHorse      |                 |             |               |       |                            |                           |   |
+| 9  | shell         |                 |             |               |       |                            |                           |   |
+| 10 | smallDiamond  |                 |             |               |       |                            |                           |   |
+| 11 | sportsCar     |                 |             |               |       |                            |                           |   |
+| 12 | starFish      |                 |             |               |       |                            |                           |   |
 
++ range of data coordinates
++ objects attributes (shape, size, transparency, etc.)
++ abnormal types
++ 
 
 ## Data Collection
 
++ description of instruments
++ how to capture point clouds and complete one tamplate
++ how to make anomalies
++ labor and time consuming
 
 
-## Annotations
+## Annotation and format
++ how to annotate
 
 
 
 ## Benchmark
 
++ task definition
++ structure of dataset
++ beseline method
 
 
 ## Training and Evaluation
 
-> how to train
++ how to train
 
 
-> how to evaluate
++ how to evaluate
