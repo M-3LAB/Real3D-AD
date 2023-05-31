@@ -62,7 +62,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 + labor and time consuming
 
 
-## Annotation and format
+## Annotation
 + how to annotate
 
 
