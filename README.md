@@ -17,7 +17,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 # H3D-AD
 
 ## Summary
-+ draw object overview of all classes in H3AD-AD (give color snapshoot and 3d point clouds)
++ draw object overview of all classes in H3AD-AD (give color snapshot and 3d point clouds)
 
 + summary
 
@@ -32,7 +32,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 + brief describe our dataset in Table
   
-| Source | Class         | Size (length/width/height) | Transparency | Training (good) | Test (good) | Test (defect) | Total | TrainPoints (min/max/mean) | TestPoints (min/max/mean) | Δ |
+| Source | Class         | Size (length/width/height) | Transparency | TrainingNum (good) | TestNum (good) | TestNum (defect) | TotalNum | TrainingPoints (min/max/mean) | TestPoints (min/max/mean) | Δ |
 |--------|---------------|----------------------------|--------------|-----------------|-------------|---------------|-------|----------------------------|---------------------------|--------|
 | 1      | airplane      |                            |              |                 |             |               |       |                            |                           |        |
 | 2      | barCandy      |                            |              |                 |             |               |       |                            |                           |        |
@@ -47,7 +47,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 | 11     | sportsCar     |                            |              |                 |             |               |       |                            |                           |        |
 | 12     | starFish      |                            |              |                 |             |               |       |                            |                           |        |
 
-(Δ: Mean proportion of abnormal data (number of point clouds))
+(Δ: Mean proportion of abnormal point clouds in Test set)
 
 + range of data coordinates
 + objects attributes (shape, size, transparency, etc.)
