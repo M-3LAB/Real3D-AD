@@ -2,7 +2,7 @@
 
 Jiaqi Liu$*$, Guoyang Xie$*$, Jinbao Wang$†$, Ruitao Chen, Xinpeng Li, Yong Liu, Chengjie Wang, and Feng Zheng$†$
 
-___($*$ Equal contribution; $†$ Corresponding authors)___
+___(* Equal contribution; † Corresponding authors)___
 
 Our paper is summitted to NeurIPS 2023 Dataset & Benchmark Track. [[Paper]]()
 
