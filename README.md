@@ -24,7 +24,8 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 ## Download
 
-$\bigstar$ To download the H3D-AD dataset for 3D anomaly detaction, click [Here]()
++ To download the H3D-AD dataset (Source, h3d-ad.pcb.zip), click [Here]()
++ To download the H3D-AD dataset (Post-Processed, h3d-ad.ply.zip), click [Here]()
 
 ## Dataset Statistic
 
