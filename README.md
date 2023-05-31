@@ -24,27 +24,30 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 ## Download
 
-+ To download the H3D-AD dataset (Source, h3d-ad.pcb.zip), click [Here]()
-+ To download the H3D-AD dataset (Post-Processed, h3d-ad.ply.zip), click [Here]()
++ To download the H3D-AD dataset (Source, pcb format), click [h3d-ad.pcb.zip]()
++ To download the H3D-AD dataset (Source, ply format), click [h3d-ad.ply.zip]()
++ To download the H3D-AD dataset (Down-sampled, pcb format), click [h3d-ad-ds.pcb.zip]()
 
 ## Dataset Statistic
 
 + brief describe our dataset in Table
   
-|    | Class         | Training (good) | Test (good) | Test (defect) | Total | TrainPoints (min/max/mean) | TestPoints (min/max/mean) |   |
-|----|---------------|-----------------|-------------|---------------|-------|----------------------------|---------------------------|---|
-| 1  | airplane      |                 |             |               |       |                            |                           |   |
-| 2  | barCandy      |                 |             |               |       |                            |                           |   |
-| 3  | butterflyFish |                 |             |               |       |                            |                           |   |
-| 4  | chicken       |                 |             |               |       |                            |                           |   |
-| 5  | duck          |                 |             |               |       |                            |                           |   |
-| 6  | gemstone      |                 |             |               |       |                            |                           |   |
-| 7  | pacCandy      |                 |             |               |       |                            |                           |   |
-| 8  | seaHorse      |                 |             |               |       |                            |                           |   |
-| 9  | shell         |                 |             |               |       |                            |                           |   |
-| 10 | smallDiamond  |                 |             |               |       |                            |                           |   |
-| 11 | sportsCar     |                 |             |               |       |                            |                           |   |
-| 12 | starFish      |                 |             |               |       |                            |                           |   |
+| Source | Class         | Size (length/width/height) | Transparency | Training (good) | Test (good) | Test (defect) | Total | TrainPoints (min/max/mean) | TestPoints (min/max/mean) | Δ |
+|--------|---------------|----------------------------|--------------|-----------------|-------------|---------------|-------|----------------------------|---------------------------|--------|
+| 1      | airplane      |                            |              |                 |             |               |       |                            |                           |        |
+| 2      | barCandy      |                            |              |                 |             |               |       |                            |                           |        |
+| 3      | butterflyFish |                            |              |                 |             |               |       |                            |                           |        |
+| 4      | chicken       |                            |              |                 |             |               |       |                            |                           |        |
+| 5      | duck          |                            |              |                 |             |               |       |                            |                           |        |
+| 6      | gemstone      |                            |              |                 |             |               |       |                            |                           |        |
+| 7      | pacCandy      |                            |              |                 |             |               |       |                            |                           |        |
+| 8      | seaHorse      |                            |              |                 |             |               |       |                            |                           |        |
+| 9      | shell         |                            |              |                 |             |               |       |                            |                           |        |
+| 10     | smallDiamond  |                            |              |                 |             |               |       |                            |                           |        |
+| 11     | sportsCar     |                            |              |                 |             |               |       |                            |                           |        |
+| 12     | starFish      |                            |              |                 |             |               |       |                            |                           |        |
+
+(Δ: Mean proportion of abnormal data (number of point clouds))
 
 + range of data coordinates
 + objects attributes (shape, size, transparency, etc.)
