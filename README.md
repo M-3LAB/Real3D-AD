@@ -72,6 +72,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 + task definition
 + structure of dataset
 + beseline method
++ metrics
 
 
 ## Training and Evaluation
