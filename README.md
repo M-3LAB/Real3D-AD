@@ -32,8 +32,8 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 + brief describe our dataset in Table
   
-| Source | Class         | Real Size (length/width/height) | Transparency | TrainingNum (good) | TestNum (good) | TestNum (defect) | TotalNum | TrainingPoints (min/max/mean) | TestPoints (min/max/mean) | Anomaly Proportion Δ |
-|--------|---------------|----------------------------|--------------|-----------------|-------------|---------------|-------|----------------------------:|---------------------------:|--------:|
+| Source | Class         | Real Size (length/width/height) | Transparency | TrainingNum (good) | TestNum (good) | TestNum (defect) | TotalNum | TrainingPoints (min/max/mean) | TestPoints (min/max/mean) | AnomalyProportion Δ |
+|:--------:|---------------|----------------------------:|--------------:|-----------------:|-------------:|---------------:|-------:|----------------------------:|---------------------------:|--------:|
 | 1      | airplane      |                            |      Yes     |               4 |          50 |            50 |   104 |       383k/ 413k/ 400k     |       168k/ 773k/351k     |  1.17% |
 | 2      | barCandy      |                            |      Yes     |               4 |          50 |            50 |   104 |       178k/1001k/ 385k     |        78k/  97k/ 88k     |  2.46% |
 | 3      | butterflyFish |                            |      Yes     |               4 |          50 |            50 |   104 |       230k/ 251k/ 240k     |       104k/ 117k/110k     |  2.85% |
