@@ -1,6 +1,6 @@
 # H3D-AD: A Dataset of High-Resolution 3D Anomaly Detection Tasks
 
-Jiaqi Liu*, Guoyang Xie*, Jinbao Wang†, Ruitao Chen, Xinpeng Li, Yong Liu, Chengjie Wang, and Feng Zheng†
+Jiaqi Liu*, Guoyang Xie*, Ruitao Chen*, Jinbao Wang†, Xinpeng Li, Yong Liu, Chengjie Wang, and Feng Zheng†
 
 (* Equal contribution; † Corresponding authors)
 
