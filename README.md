@@ -37,7 +37,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 | 1      | airplane      |                            |      Yes     |               4 |          50 |            50 |   104 |       383k/ 413k/ 400k     |       168k/ 773k/351k     |  1.17% |
 | 2      | barCandy      |                            |      Yes     |               4 |          50 |            50 |   104 |       178k/1001k/ 385k     |        78k/  97k/ 88k     |  2.46% |
 | 3      | butterflyFish |                            |      Yes     |               4 |          50 |            50 |   104 |       230k/ 251k/ 240k     |       104k/ 117k/110k     |  2.85% |
-| 4      | chicken       |                            |      Yes     |               4 |          26 |            27 |    57 |       217k/1631k/1157k     |        87k/1645k/356k     |  4.46% |
+| 4      | chicken       |                            |      Yes     |               4 |          52 |            55 |   111 |       217k/1631k/1157k     |        68k/1645k/338k     |  4.39% |
 | 5      | duck          |                            |      Yes     |               4 |          50 |            50 |   104 |       545k/2675k/1750k     |       155k/ 784k/216k     |  1.99% |
 | 6      | gemstone      |                            |      Yes     |               4 |          50 |            50 |   104 |       169k/1819k/ 835k     |        43k/ 645k/104k     |  2.06% |
 | 7      | pacCandy      |                            |      Yes     |               4 |          50 |            50 |   104 |       339k/1183k/ 553k     |       149k/ 180k/157k     |  2.36% |
