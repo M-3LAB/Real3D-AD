@@ -64,6 +64,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 ## Annotation
 + how to annotate
+
 The collected point clouds are annotated using CloudCompare software
 CloudCompare is a 3D point cloud (grid) editing and processing software. Originally, it was designed to directly compare dense three-dimensional point clouds. It relies on a specific octree structure and provides excellent performance for tasks such as point cloud comparison.
 The anotation process of point cloud is shown in the figure below,
