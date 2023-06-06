@@ -9,27 +9,27 @@ Our paper is summitted to NeurIPS 2023 Datasets & Benchmarks Track. [[Paper]]()
 # Overview
 This project aims to construct a new dataset of **high-resolution 3D point clouds** for anomaly detection tasks in real-world scenes.
 
-**H3D-AD** can be used for training and testing 3D anonmaly detection algorithms.
+**Real3D-AD** can be used for training and testing 3D anonmaly detection algorithms.
 
 Note that different from RGB + Depth patterns, we **only** provide 3D point clouds for users.
 
 
-# H3D-AD
+# Real3D-AD
 
-<img src="./doc/real3d.png" width=800 alt="Real3D Dataset" align=center>
+<img src="./doc/real3d.png" width=900 alt="Real3D Dataset" align=center>
 
 
 ## Summary
-+ draw object overview of all classes in H3AD-AD (give color snapshot and 3d point clouds)
++ draw object overview of all classes in Real3D-AD (give color snapshot and 3d point clouds)
 
 + summary
 
 
 ## Download
 
-+ To download the H3D-AD dataset (Source, pcb format), click [h3d-ad.pcb.zip]()
-+ To download the H3D-AD dataset (Source, ply format), click [h3d-ad.ply.zip]()
-+ To download the H3D-AD dataset (Down-sampled, pcb format), click [h3d-ad-ds.pcb.zip]()
++ To download the Real3D-AD dataset (Source, pcb format), click [real3d-ad.pcb.zip]()
++ To download the Real3D-AD dataset (Source, ply format), click [real3d-ad.ply.zip]()
++ To download the Real3D-AD dataset (Down-sampled, pcb format), click [real3d-ad-ds.pcb.zip]()
 
 ## Dataset Statistic
 
@@ -70,8 +70,10 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 The collected point clouds are annotated using CloudCompare software
 CloudCompare is a 3D point cloud (grid) editing and processing software. Originally, it was designed to directly compare dense three-dimensional point clouds. It relies on a specific octree structure and provides excellent performance for tasks such as point cloud comparison.
-The anotation process of point cloud is shown in the figure below,
-![image-20230605141032952](https://github.com/M-3LAB/H3D-AD/blob/main/doc/anotation.png)
+The anotation process of point cloud is shown in the figure below.
+<!-- ![image-20230605141032952](https://github.com/M-3LAB/H3D-AD/blob/main/doc/anotation.png) -->
+
+<img src="./doc/anotation.png" width=900 alt="Anotation phase" align=center>
 
 ## Benchmark
 
