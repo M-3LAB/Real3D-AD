@@ -1,4 +1,4 @@
-# H3D-AD: A Dataset of High-Resolution 3D Anomaly Detection Tasks
+# Real3D-AD: A Dataset of Point Cloud Anomaly Detection Tasks
 
 Jiaqi Liu*, Guoyang Xie*, Ruitao Chen*, Xinpeng Li, Jinbao Wang†, Yong Liu, Chengjie Wang, and Feng Zheng†
 
