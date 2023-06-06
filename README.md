@@ -1,6 +1,6 @@
-# H3D-AD: A Dataset of High-Resolution 3D Anomaly Detection Tasks
+# Real3D-AD: A Dataset of Point Cloud Anomaly Detection Tasks
 
-Jiaqi Liu*, Guoyang Xie*, Jinbao Wang†, Ruitao Chen, Xinpeng Li, Yong Liu, Chengjie Wang, and Feng Zheng†
+Jiaqi Liu*, Guoyang Xie*, Ruitao Chen*, Xinpeng Li, Jinbao Wang†, Yong Liu, Chengjie Wang, and Feng Zheng†
 
 (* Equal contribution; † Corresponding authors)
 
@@ -45,7 +45,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 | 9      | shell         |     21.7/22.0/ 7.7         |      Yes     |               4 |          52 |            48 |   104 |       280k/ 316k/ 295k     |       110k/ 144k/125k     |  2.25% |
 | 10     | diamond       |     29.0/29.0/18.7         |      Yes     |               4 |          50 |            50 |   104 |      1477k/2146k/1972k     |        66k/  84k/ 75k     |  5.40% |
 | 11     | car           |     35.0/29.0/12.5         |      Yes     |               4 |          50 |            50 |   104 |       566k/1296k/1097k     |        90k/ 149k/131k     |  1.98% |
-| 12     | starfish      |     27.4/27.4/4.8          |      Yes     |               4 |          50 |            50 |   104 |       198k/ 209k/ 202k     |        74k/ 116k/ 88k     |  4.46% |
+| 12     | starfish      |     27.4/27.4/ 4.8          |      Yes     |               4 |          50 |            50 |   104 |       198k/ 209k/ 202k     |        74k/ 116k/ 88k     |  4.46% |
 
 (Δ: Mean proportion of abnormal point clouds in Test set)
 
@@ -65,7 +65,10 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 ## Annotation
 + how to annotate
 
-
+The collected point clouds are annotated using CloudCompare software
+CloudCompare is a 3D point cloud (grid) editing and processing software. Originally, it was designed to directly compare dense three-dimensional point clouds. It relies on a specific octree structure and provides excellent performance for tasks such as point cloud comparison.
+The anotation process of point cloud is shown in the figure below,
+![image-20230605141032952](https://github.com/M-3LAB/H3D-AD/blob/main/doc/anotation.png)
 
 ## Benchmark
 
