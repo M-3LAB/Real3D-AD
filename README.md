@@ -89,3 +89,7 @@ The anotation process of point cloud is shown in the figure below.
 
 
 + how to evaluate
+
+## License
+
+The data is released under the CC BY 4.0 license.
