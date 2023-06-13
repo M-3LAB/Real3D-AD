@@ -27,9 +27,8 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 ## Download
 
-+ To download the Real3D-AD dataset (Source, pcb format), click [real3d-ad.pcb.zip]()
-+ To download the Real3D-AD dataset (Source, ply format), click [real3d-ad.ply.zip]()
-+ To download the Real3D-AD dataset (Down-sampled, pcb format), click [real3d-ad-ds.pcb.zip]()
++ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad.pcd.zip]()
++ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad.ply.zip]()
 
 ## Dataset Statistic
 
@@ -40,7 +39,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 | 1      | Airplane      |     34.0/14.2/31.7         |      Yes     |               4 |          50 |            50 |   104 |       383k/ 413k/ 400k     |       168k/ 773k/351k     |  1.17% |
 | 2      | Car           |     35.0/29.0/12.5         |      Yes     |               4 |          50 |            50 |   104 |       566k/1296k/1097k     |        90k/ 149k/131k     |  1.98% |
 | 3      | Candybar      |     33.0/20.0/ 8.0         |      Yes     |               4 |          50 |            50 |   104 |       339k/1183k/ 553k     |       149k/ 180k/157k     |  2.36% |
-| 4      | Chicken       |     25.0/14.0/20.0         | No (white)   |               4 |          26 |            27 |    57 |       217k/1631k/1157k     |        87k/1645k/356k     |  4.46% |
+| 4      | Chicken       |     25.0/14.0/20.0         | No (white)   |               4 |          52 |            54 |   110 |       217k/1631k/1157k     |        87k/1645k/356k     |  4.46% |
 | 5      | Diamond       |     29.0/29.0/18.7         |      Yes     |               4 |          50 |            50 |   104 |      1477k/2146k/1972k     |        66k/  84k/ 75k     |  5.40% |
 | 6      | Duck          |     30.0/22.2/29.4         |      Yes     |               4 |          50 |            50 |   104 |       545k/2675k/1750k     |       155k/ 784k/216k     |  1.99% |
 | 7      | Fish          |     37.7/24.0/ 4.0         |      Yes     |               4 |          50 |            50 |   104 |       230k/ 251k/ 240k     |       104k/ 117k/110k     |  2.85% |
@@ -51,11 +50,6 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 | 12     | Toffees       |     38.0/12.0/10.0         |      Yes     |               4 |          50 |            50 |   104 |       178k/1001k/ 385k     |        78k/  97k/ 88k     |  2.46% |
 
 (Δ: Mean proportion of abnormal point clouds in Test set)
-
-+ range of data coordinates
-+ objects attributes (shape, size, transparency, etc.)
-+ abnormal types
-+ examples of training template and test frame
 
 ## Data Collection
 
