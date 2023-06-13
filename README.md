@@ -1,4 +1,4 @@
-# Real3D-AD: A Dataset of Point Cloud Anomaly Detection Tasks
+# Real3D-AD: A Dataset of Point Cloud Anomaly Detection
 
 Jiaqi Liu*, Guoyang Xie*, Ruitao Chen*, Xinpeng Li, Jinbao Wang†, Yong Liu, Chengjie Wang, and Feng Zheng†
 
