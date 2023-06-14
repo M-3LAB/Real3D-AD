@@ -67,7 +67,7 @@ CloudCompare is a 3D point cloud (grid) editing and processing software. Origina
 The anotation process of point cloud is shown in the figure below.
 <!-- ![image-20230605141032952](https://github.com/M-3LAB/H3D-AD/blob/main/doc/anotation.png) -->
 
-<img src="./doc/anotation.png" width=900 alt="Anotation phase" align=center>
+<img src="./doc/annotation.png" width=900 alt="Anotation phase" align=center>
 
 ## Benchmark
 
