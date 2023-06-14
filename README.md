@@ -184,7 +184,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | toffees    | 0.055   | 0.016    | 0.021         | 0.018          | 0.040          | 0.055              | 0.055              | 0.067        |
 | Average    | 0.065   | 0.022    | 0.046         | 0.052          | 0.074          | 0.129              | 0.058              | 0.113        |
 
-## Training and Evaluation(How to reproduce our benchmark)
+## How to reproduce our benchmark
 
 + environment preparation
 
@@ -197,10 +197,9 @@ conda env create -f real3dad.yaml
 pip install "git+git://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
 ```
 
-+ how to train
++ how to train and evaluation
 
-
-+ how to evaluate
+sh start.sh
 
 
 ## Thanks
