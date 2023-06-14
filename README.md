@@ -20,15 +20,19 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 
 ## Summary
-+ draw object overview of all classes in Real3D-AD (give color snapshot and 3d point clouds)
++ overview of all classes in Real3D-AD
 
-+ summary
+Real3D-AD comprises a total of 1,254 samples that are distributed across 12 distinct categories. These categories include Airplane, Car, Candybar, Chicken, Diamond, Duck, Fish, Gemstone, Seahorse, Shell, Starfish, and Toffees.
 
 
 ## Download
 
-+ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad.pcd.zip]()
-+ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad.ply.zip]()
++ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad.pcd.zip(baidu disk: vrmi))](https://pan.baidu.com/s/1orQY3DjR6Z0wazMNPysShQ)
++ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad.ply.zip(baidu disk：vvz1))](https://pan.baidu.com/s/1BRdJ8oSwrpAPxTOEwUrjdw)
+
+
+### structure of dataset
+
 
 ## Dataset Statistic
 
@@ -54,9 +58,18 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 ## Data Collection
 
 + description of instruments
-+ how to capture point clouds and complete one tamplate
-+ how to make anomalies
-+ labor and time consuming
+
+<img src="./doc/instruments.png" width=900 alt="instruments" align=center>
+The PMAX-S130 optical system comprises a pair of lenses with low distortion properties, a high luminance LED, and a blue-ray filter. The blue light scanner is equipped with a lens filter that selectively allows only the blue light of a specific wavelength to pass through. The filter effectively screens the majority of blue light due to its relatively low concentration in both natural and artificial lighting. Nevertheless, using blue light-emitting light sources could pose a unique obstacle in this context. The image sensor can collect light using the lens aperture. Hence, the influence exerted by ambient light is vastly reduced.
+
++ how to capture point clouds and complete one prototype
+
+<img src="./doc/make_prototype.png" width=900 alt="make prototype" align=center>
+Initially, the stationary object undergoes scanning while the turntable completes a full revolution of 360°, enabling the scanner to capture images of the various facets of the object. Subsequently, the object undergoes reversal, and the process of rotation and scanning is reiterated. Following the manual calibration of the front and back scanning outcomes, the algorithm performs a precise calibration of the stitching process. If there are any gaps in the stitching outcome, the scan stitching process is reiterated until the point cloud is rendered.
+
++ anomalies
+
+The anomalies pertaining to point clouds can be classified into two categories: incompleteness and redundancy. In the dataset, we named them bulge and sink. Besides, more samples are made by copying and cutting edges.
 
 
 ## Annotation
@@ -72,10 +85,12 @@ The anotation process of point cloud is shown in the figure below.
 ## Benchmark
 
 + task definition
-+ structure of dataset
-+ beseline method
-+ metrics
 
+
++ beseline method
+
++ metrics
+We choose AUROC and AUPU as metric for object level and point level anomaly detection.
 
 ## Training and Evaluation
 
