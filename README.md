@@ -16,7 +16,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 # Real3D-AD
 
-<img src="./doc/real3d.png" width=300 alt="Real3D Dataset" align=center>
+<img src="./doc/real3d.png" width=900 alt="Real3D Dataset" align=center>
 
 
 ## Summary
@@ -59,7 +59,7 @@ Real3D-AD comprises a total of 1,254 samples that are distributed across 12 dist
 
 + description of instruments
 
-<img src="./doc/instruments.png" width=900 alt="instruments" align=center>
+<img src="./doc/instruments.png" width=300 alt="instruments" align=center>
 The PMAX-S130 optical system comprises a pair of lenses with low distortion properties, a high luminance LED, and a blue-ray filter. The blue light scanner is equipped with a lens filter that selectively allows only the blue light of a specific wavelength to pass through. The filter effectively screens the majority of blue light due to its relatively low concentration in both natural and artificial lighting. Nevertheless, using blue light-emitting light sources could pose a unique obstacle in this context. The image sensor can collect light using the lens aperture. Hence, the influence exerted by ambient light is vastly reduced.
 
 + how to capture point clouds and complete one prototype
