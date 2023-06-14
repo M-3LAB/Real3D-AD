@@ -188,11 +188,14 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 
 + environment preparation
 
-'''
+We implement benchmark under CUDA 11.3
+Our environment can be reproduced by the following command:
+
+```
 conda env create -f real3dad.yaml
 # Note that point2_ops_lib may need to be installed by the following command：
 pip install "git+git://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
-'''
+```
 
 + how to train
 
