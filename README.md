@@ -16,7 +16,7 @@ Note that different from RGB + Depth patterns, we **only** provide 3D point clou
 
 # Real3D-AD
 
-<img src="./doc/real3d.png" width=900 alt="Real3D Dataset" align=center>
+<img src="./doc/real3d.png" width=300 alt="Real3D Dataset" align=center>
 
 
 ## Summary
@@ -64,7 +64,7 @@ The PMAX-S130 optical system comprises a pair of lenses with low distortion prop
 
 + how to capture point clouds and complete one prototype
 
-<img src="./doc/make_prototype.png" width=900 alt="make prototype" align=center>
+<img src="./doc/make_prototypes.png" width=900 alt="make prototype" align=center>
 Initially, the stationary object undergoes scanning while the turntable completes a full revolution of 360°, enabling the scanner to capture images of the various facets of the object. Subsequently, the object undergoes reversal, and the process of rotation and scanning is reiterated. Following the manual calibration of the front and back scanning outcomes, the algorithm performs a precise calibration of the stitching process. If there are any gaps in the stitching outcome, the scan stitching process is reiterated until the point cloud is rendered.
 
 + anomalies
