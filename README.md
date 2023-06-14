@@ -27,12 +27,12 @@ Real3D-AD comprises a total of 1,254 samples that are distributed across 12 dist
 
 ## Download
 
-+ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad-pcd.zip(google drive)]() or [real3d-ad-pcd.zip(baidu disk: vrmi)](https://pan.baidu.com/s/1orQY3DjR6Z0wazMNPysShQ)
-+ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad-pcd.zip(google drive)]() or [real3d-ad-ply.zip(baidu disk：vvz1)](https://pan.baidu.com/s/1BRdJ8oSwrpAPxTOEwUrjdw)
++ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad-pcd.zip(google drive)](https://drive.google.com/file/d/1oM4qjhlIMsQc_wiFIFIVBvuuR8nyk2k0/view?usp=sharing) or [real3d-ad-pcd.zip(baidu disk: vrmi)](https://pan.baidu.com/s/1orQY3DjR6Z0wazMNPysShQ)
++ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad-pcd.zip(google drive)](https://drive.google.com/file/d/1lHjvyVquuO8-ROOYcnf7O_lliL1Wa36V/view?usp=sharing) or [real3d-ad-ply.zip(baidu disk：vvz1)](https://pan.baidu.com/s/1BRdJ8oSwrpAPxTOEwUrjdw)
 
 
-### structure of dataset
-- Download and extract into `./data/`
+### Data preparation
+- Download real3d-ad-pcd.zip and extract into `./data/`
 ```
 data
 ├── airplane
@@ -51,6 +51,16 @@ data
 ├── car
 ...
 ```
+
+### Checkpoint preparation
+
+| Backbone          | Pretrain Method                                                                                                                                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Point Transformer | [Point-MAE](https://github.com/Pang-Yatian/Point-MAE/releases/download/main/pretrain.pth)                                                                                       |
+| Point Transformer | [Point-Bert](https://cloud.tsinghua.edu.cn/f/202b29805eea45d7be92/?dl=1)                                                                                                        |
+
+- Download checkpoints and move them into `./checkpoints/`
+
 
 ## Dataset Statistic
 
@@ -116,3 +126,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 
 
 + how to evaluate
+
+## Thanks
+
+Our benchmark is built on [BTF](https://github.com/eliahuhorwitz/3D-ADS) and [M3DM](https://github.com/nomewang/M3DM) and [PatchCore](https://github.com/amazon-science/patchcore-inspection), thanks their extraordinary works!
