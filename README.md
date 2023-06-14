@@ -27,8 +27,8 @@ Real3D-AD comprises a total of 1,254 samples that are distributed across 12 dist
 
 ## Download
 
-+ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad.pcd.zip(baidu disk: vrmi))](https://pan.baidu.com/s/1orQY3DjR6Z0wazMNPysShQ)
-+ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad.ply.zip(baidu disk：vvz1))](https://pan.baidu.com/s/1BRdJ8oSwrpAPxTOEwUrjdw)
++ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad-pcd.zip(google drive)]() or [real3d-ad-pcd.zip(baidu disk: vrmi)](https://pan.baidu.com/s/1orQY3DjR6Z0wazMNPysShQ)
++ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad-pcd.zip(google drive)]() or [real3d-ad-ply.zip(baidu disk：vvz1)](https://pan.baidu.com/s/1BRdJ8oSwrpAPxTOEwUrjdw)
 
 
 ### structure of dataset
