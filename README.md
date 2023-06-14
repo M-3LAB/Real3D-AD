@@ -32,7 +32,24 @@ Real3D-AD comprises a total of 1,254 samples that are distributed across 12 dist
 
 
 ### structure of dataset
-
+- Download and extract into `./data/`
+```
+data
+├── airplane
+    ├── train
+        ├── 1_prototype.pcd
+        ├── 2_prototype.pcd
+        ...
+    ├── test
+        ├── 1_bulge.pcd
+        ├── 2_sink.JPG
+        ...
+    ├── gt
+        ├── 1_bulge.txt
+        ├── 2_sink.txt
+        ... 
+├── car
+...
 
 ## Dataset Statistic
 
