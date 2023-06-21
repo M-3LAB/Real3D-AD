@@ -199,9 +199,15 @@ pip install "git+git://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet
 
 + how to train and evaluation
 
+```
 sh start.sh
-
+```
+The result will output four different metrics (Object/Point AUROC/AUPR).
 
 ## Thanks
 
 Our benchmark is built on [BTF](https://github.com/eliahuhorwitz/3D-ADS) and [M3DM](https://github.com/nomewang/M3DM) and [PatchCore](https://github.com/amazon-science/patchcore-inspection), thanks their extraordinary works!
+
+
+## License
+The dataset is released under the CC BY 4.0 license.
