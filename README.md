@@ -113,9 +113,11 @@ The anotation process of point cloud is shown in the figure below.
 ## Benchmark
 
 + beseline methods
+  
 We take BTF and M3DM as basic baseline methods, and improve baseline using PatchCore and .
 
 + metrics
+  
 We choose AUROC and AUPU as metric for object level and point level anomaly detection.
 
 + benchmark results
