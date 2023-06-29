@@ -122,7 +122,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 
 + benchmark results
 
-| Object AUROC | BTF_raw | BTF_FPFH | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
+| Object AUROC | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 |--------------|---------|----------|---------------|----------------|----------------|--------------------|--------------------|--------------|
 | airplane     | 0.730   | 0.520    | 0.434         | 0.407          | 0.882          | 0.848              | 0.726              | 0.716        |
 | car          | 0.647   | 0.560    | 0.541         | 0.506          | 0.590          | 0.777              | 0.498              | 0.697        |
@@ -138,7 +138,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | toffees      | 0.539   | 0.630    | 0.552         | 0.562          | 0.541          | 0.570              | 0.663              | 0.685        |
 | Average      | 0.643   | 0.601    | 0.552         | 0.538          | 0.597          | 0.692              | 0.588              | 0.705        |
 
-| Object AUPR | BTF_raw | BTF_FPFH | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
+| Object AUPR | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 |-------------|---------|----------|---------------|----------------|----------------|--------------------|--------------------|--------------|
 | airplane    | 0.659   | 0.506    | 0.479         | 0.497          | 0.852          | 0.807              | 0.747              | 0.703        |
 | car         | 0.653   | 0.523    | 0.508         | 0.517          | 0.611          | 0.766              | 0.555              | 0.753        |
@@ -154,7 +154,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | toffees     | 0.505   | 0.700    | 0.593         | 0.569          | 0.506          | 0.559              | 0.708              | 0.721        |
 | Average     | 0.624   | 0.603    | 0.572         | 0.581          | 0.599          | 0.676              | 0.626              | 0.723        |
 
-| Point AUROC | BTF_raw | BTF_FPFH | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
+| Point AUROC | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 |-------------|---------|----------|---------------|----------------|----------------|--------------------|--------------------|--------------|
 | airplane    | 0.738   | 0.564    | 0.530         | 0.523          | 0.471          | 0.556              | 0.579              | 0.631        |
 | car         | 0.708   | 0.647    | 0.607         | 0.593          | 0.643          | 0.740              | 0.610              | 0.718        |
@@ -170,7 +170,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | toffees     | 0.815   | 0.623    | 0.679         | 0.677          | 0.411          | 0.549              | 0.727              | 0.759        |
 | Average     | 0.722   | 0.566    | 0.637         | 0.636          | 0.592          | 0.692              | 0.634              | 0.700        |
 
-| Point AUPR | BTF_raw | BTF_FPFH | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
+| Point AUPR | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 |------------|---------|----------|---------------|----------------|----------------|--------------------|--------------------|--------------|
 | airplane   | 0.027   | 0.012    | 0.007         | 0.007          | 0.027          | 0.016              | 0.016              | 0.017        |
 | car        | 0.028   | 0.014    | 0.018         | 0.017          | 0.034          | 0.160              | 0.069              | 0.135        |
