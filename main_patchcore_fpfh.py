@@ -75,9 +75,9 @@ def run(
     save_root_dir = './benchmark/patchcore_fpfh/'
     print('Task start: Patchcore FPFH')
     
-    real_3d_classes = ['airplane','barCandy','butterflyFish','chicken',
-                   'duck','gemstone','pacCandy','seahorse',
-                   'shell','smallDiamond','sportsCar','starfish']
+    real_3d_classes = ['airplane','car','candybar','chicken',
+                   'diamond','duck','fish','gemstone',
+                   'seahorse','shell','starfish','toffees']
     # real_3d_classes = ['airplane','barCandy']
     # print(task_num)
     # print(type(list_of_dataloaders[0])) <class 'dict'>

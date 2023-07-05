@@ -75,10 +75,9 @@ def run(
     save_root_dir = './benchmark/patchcore_pointmae/'
     print('Task start: Patchcore PointMAE')
     
-    # real_3d_classes = ['airplane','barCandy','butterflyFish','chicken',
-    #                'duck','gemstone','pacCandy','seahorse',
-    #                'shell','smallDiamond','sportsCar','starfish']
-    real_3d_classes = ['chicken']
+    real_3d_classes = ['airplane','car','candybar','chicken',
+                   'diamond','duck','fish','gemstone',
+                   'seahorse','shell','starfish','toffees']
     # print(task_num)
     # print(type(list_of_dataloaders[0])) <class 'dict'>
     # print(type(list_of_dataloaders[0]['training'])) <class 'torch.utils.data.dataloader.DataLoader'>

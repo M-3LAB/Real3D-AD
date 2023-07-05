@@ -75,9 +75,9 @@ def run(
     save_root_dir = './benchmark/reg3dad/'
     print('Task start: Reg3DAD')
     
-    real_3d_classes = ['airplane','barCandy','butterflyFish','chicken',
-                   'duck','gemstone','pacCandy','seahorse',
-                   'shell','smallDiamond','sportsCar','starfish']
+    real_3d_classes = ['airplane','car','candybar','chicken',
+                   'diamond','duck','fish','gemstone',
+                   'seahorse','shell','starfish','toffees']
     # real_3d_classes = ['chicken']
     # real_3d_classes = ['airplane','barCandy']
     # print(task_num)
