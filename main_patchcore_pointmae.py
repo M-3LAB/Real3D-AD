@@ -78,9 +78,7 @@ def run(
     real_3d_classes = ['airplane','car','candybar','chicken',
                    'diamond','duck','fish','gemstone',
                    'seahorse','shell','starfish','toffees']
-    # print(task_num)
-    # print(type(list_of_dataloaders[0])) <class 'dict'>
-    # print(type(list_of_dataloaders[0]['training'])) <class 'torch.utils.data.dataloader.DataLoader'>
+
     for dataset_count, dataset_name in enumerate(real_3d_classes):
         LOGGER.info(
             "Evaluating dataset [{}] ({}/{})...".format(

@@ -208,7 +208,7 @@ The result will output four different metrics (Object/Point AUROC/AUPR).
 
 + how to visualize abnormal map
 
-In util.visualization.py, we provide the function ''vis_pointcloud_gt'' to visualize ground truth with our gt files. Also, with a saved anomaly map xx.npy(n values between 0 and 1) and the corresponding pcd file, you can use "vis_pointcloud_anomalymap(point_cloud, anomaly_map)" to visualize anomaly regions.
+In util.visualization.py, we provide the function ''vis_pointcloud_gt'' to visualize ground truth with our gt files. Also, with a saved anomaly map xx.npy(n values between 0 and 1) and the corresponding pcd file(n xyz points), you can use "vis_pointcloud_anomalymap(point_cloud, anomaly_map)" to visualize anomaly regions.
 
 ## Thanks
 
