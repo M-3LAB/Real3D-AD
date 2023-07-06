@@ -136,7 +136,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | shell        | 0.396   | 0.754    | 0.694         | 0.577          | 0.589          | 0.663              | 0.501              | 0.583        |
 | starfish     | 0.530   | 0.575    | 0.551         | 0.528          | 0.441          | 0.471              | 0.519              | 0.506        |
 | toffees      | 0.539   | 0.630    | 0.552         | 0.562          | 0.541          | 0.570              | 0.663              | 0.685        |
-| Average      | 0.643   | 0.601    | 0.552         | 0.538          | 0.597          | 0.692              | 0.588              | 0.705        |
+| Average      | 0.635   | 0.603 	| 0.552 	    | 0.538 	     | 0.593 	      | 0.682 	           | 0.594 	            | 0.704        |
 
 | Object AUPR | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 |-------------|---------|----------|---------------|----------------|----------------|--------------------|--------------------|--------------|
@@ -152,7 +152,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | shell       | 0.434   | 0.751    | 0.616         | 0.638          | 0.573          | 0.553              | 0.590              | 0.646        |
 | starfish    | 0.557   | 0.579    | 0.573         | 0.573          | 0.491          | 0.473              | 0.561              | 0.491        |
 | toffees     | 0.505   | 0.700    | 0.593         | 0.569          | 0.506          | 0.559              | 0.708              | 0.721        |
-| Average     | 0.624   | 0.603    | 0.572         | 0.581          | 0.599          | 0.676              | 0.626              | 0.723        |
+| Average     | 0.614 	| 0.611    | 0.572 	       | 0.581 	        | 0.591 	     | 0.667 	          | 0.633 	           | 0.723        |
 
 | Point AUROC | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 |-------------|---------|----------|---------------|----------------|----------------|--------------------|--------------------|--------------|
@@ -168,7 +168,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | shell       | 0.571   | 0.489    | 0.748         | 0.732          | 0.596          | 0.753              | 0.725              | 0.811        |
 | starfish    | 0.501   | 0.392    | 0.555         | 0.563          | 0.522          | 0.613              | 0.641              | 0.617        |
 | toffees     | 0.815   | 0.623    | 0.679         | 0.677          | 0.411          | 0.549              | 0.727              | 0.759        |
-| Average     | 0.722   | 0.566    | 0.637         | 0.636          | 0.592          | 0.692              | 0.634              | 0.700        |
+| Average     | 0.730 	| 0.571    | 0.637         | 0.636 	        | 0.577 	     | 0.680 	          | 0.642 	           | 0.705        |
 
 | Point AUPR | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 |------------|---------|----------|---------------|----------------|----------------|--------------------|--------------------|--------------|
