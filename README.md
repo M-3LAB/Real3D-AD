@@ -184,8 +184,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | shell      | 0.018   | 0.011    | 0.022         | 0.021          | 0.031          | 0.049              | 0.043              | 0.065        |
 | starfish   | 0.034   | 0.017    | 0.040         | 0.040          | 0.037          | 0.035              | 0.046              | 0.039        |
 | toffees    | 0.055   | 0.016    | 0.021         | 0.018          | 0.040          | 0.055              | 0.055              | 0.067        |
-| Average    | 0.065   | 0.022    | 0.046         | 0.052          | 0.074          | 0.129              | 0.058              | 0.113        |
-
+| Average    | 0.064   | 0.022 	  | 0.046 	      | 0.052 	       | 0.071 	        | 0.123              | 0.058  	          | 0.109        |
 ## How to reproduce our benchmark
 
 + environment preparation
