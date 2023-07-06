@@ -200,6 +200,8 @@ pip install "git+git://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet
 
 + how to train and evaluation
 
+Note: Although we have fixed the random seed, slight variations in the results may still occur due to other random factors. We will try to address this issue in future work.
+
 ```
 sh start.sh
 ```
