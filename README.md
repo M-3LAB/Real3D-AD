@@ -4,7 +4,7 @@ Jiaqi Liu*, Guoyang Xie*, Ruitao Chen*, Xinpeng Li, Jinbao Wang†, Yong Liu, Ch
 
 (* Equal contribution; † Corresponding authors)
 
-Our paper is summitted to NeurIPS 2023 Datasets & Benchmarks Track. [[Paper]]()
+Our paper is summitted to NeurIPS 2023 Datasets & Benchmarks Track. [[Paper comming soon]]()
 
 # Overview
 This project aims to construct a new dataset of **high-resolution 3D point clouds** for anomaly detection tasks in real-world scenes.
