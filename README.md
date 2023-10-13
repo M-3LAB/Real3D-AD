@@ -350,6 +350,10 @@ In util.visualization.py, we provide the function ''vis_pointcloud_gt'' to visua
 
 Our benchmark is built on [BTF](https://github.com/eliahuhorwitz/3D-ADS) and [M3DM](https://github.com/nomewang/M3DM) and [PatchCore](https://github.com/amazon-science/patchcore-inspection), thanks their extraordinary works!
 
+## Acknowledgments.
+This work is supported by the National Key R&D Program of China (Grant NO. 2022YFF1202903) and the National Natural Science Foundation of China (Grant NO. 62122035, 62206122).
+
+Thanks to all the people who worked hard to capture the data, especially Xinyu Tang for his efforts.
 
 ## License
 The dataset is released under the CC BY 4.0 license.
