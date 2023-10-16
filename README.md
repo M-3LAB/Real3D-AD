@@ -188,7 +188,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | toffees    | 0.055   | 0.016    | 0.021         | 0.018          | 0.040          | 0.055              | 0.055              | 0.067        |
 | Average    | 0.064   | 0.022 	  | 0.046 	      | 0.052 	       | 0.071 	        | 0.123              | 0.058  	          | 0.109        |
 
-### The 3D anomaly detection performance when using 8 prototypes for training.
+<!-- ### The 3D anomaly detection performance when using 8 prototypes for training.
 
 | Object AUROC | BTF_FPFH | BTF_Raw     | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
 | ------------ | -------- | ----------- | ------------- | -------------- | -------------- | ------------------ | ------------------ | ------------ |
@@ -318,7 +318,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 | shell      | 0.021       | 0.01        | 0.021         | 0.021          | 0.033          | 0.058              | 0.039              | 0.040        |
 | starfish   | 0.038       | 0.019       | 0.04          | 0.037          | 0.039          | 0.031              | 0.047              | 0.053        |
 | toffees    | 0.054       | 0.017       | 0.021         | 0.019          | 0.058          | 0.062              | 0.061              | 0.065        |
-| Average    | 0.0605 | 0.0198 | 0.023       | 0.024          | 0.0568    | 0.092        | 0.055        | 0.084        |
+| Average    | 0.0605 | 0.0198 | 0.023       | 0.024          | 0.0568    | 0.092        | 0.055        | 0.084        | -->
 
 ## How to reproduce our benchmark
 
