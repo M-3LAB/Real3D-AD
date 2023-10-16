@@ -346,12 +346,10 @@ The result will output four different metrics (Object/Point AUROC/AUPR).
 
 In util.visualization.py, we provide the function ''vis_pointcloud_gt'' to visualize ground truth with our gt files. Also, with a saved anomaly map xx.npy(n values between 0 and 1) and the corresponding pcd file(n xyz points), you can use "vis_pointcloud_anomalymap(point_cloud, anomaly_map)" to visualize anomaly regions.
 
-## Thanks
-
-Our benchmark is built on [BTF](https://github.com/eliahuhorwitz/3D-ADS) and [M3DM](https://github.com/nomewang/M3DM) and [PatchCore](https://github.com/amazon-science/patchcore-inspection), thanks their extraordinary works!
-
 ## Acknowledgments.
 This work is supported by the National Key R&D Program of China (Grant NO. 2022YFF1202903) and the National Natural Science Foundation of China (Grant NO. 62122035, 62206122).
+
+Our benchmark is built on [BTF](https://github.com/eliahuhorwitz/3D-ADS) and [M3DM](https://github.com/nomewang/M3DM) and [PatchCore](https://github.com/amazon-science/patchcore-inspection), thanks their extraordinary works!
 
 Thanks to all the people who worked hard to capture the data, especially Xinyu Tang for his efforts.
 
