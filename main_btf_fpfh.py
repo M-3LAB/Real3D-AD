@@ -20,7 +20,7 @@ save_dir = './benchmark/btf_fpfh/'
 print('Task start: BTF_FPFH')
 for real_class in real_3d_classes:
     train_loader = DataLoader(Dataset3dad_train(root_dir, real_class, 1024, True), num_workers=1,
-                                batch_size=1, shuffle=True, drop_last=True)
+                                batch_size=1, shuffle=False, drop_last=True)
 
     voxel_size = 0.5
     train_sampling_ratio = 100

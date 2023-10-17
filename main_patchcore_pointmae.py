@@ -91,7 +91,7 @@ def run(
             os.makedirs(save_root_dir+dataset_name)
         patchcore.utils.fix_seeds(seed, device)
         train_loader = DataLoader(Dataset3dad_train(root_dir, dataset_name, 1024, True), num_workers=1,
-                                batch_size=1, shuffle=True, drop_last=False)
+                                batch_size=1, shuffle=False, drop_last=False)
         test_loader = DataLoader(Dataset3dad_test(root_dir, dataset_name, 1024, True), num_workers=1,
                                 batch_size=1, shuffle=False, drop_last=False)
 
