@@ -122,6 +122,28 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 
 + benchmark results
 
+### Other methods on Real3D-AD
+Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection [[paper]](https://arxiv.org/abs/2303.13194)[[code]](https://github.com/caoyunkang/CPMF)
+
+|          | Object AUROC | Point AUROC | Max F1 Point | Point AP |
+|----------|------------|-----------|--------------|----------|
+| airplane | 0.632      | 0.618     | 0.023        | 0.010    |
+| candybar | 0.518      | 0.836     | 0.135        | 0.064    |
+| car      | 0.718      | 0.734     | 0.107        | 0.050    |
+| chicken  | 0.640      | 0.559     | 0.071        | 0.031    |
+| diamond  | 0.640      | 0.753     | 0.149        | 0.074    |
+| duck     | 0.554      | 0.719     | 0.042        | 0.018    |
+| fish     | 0.840      | 0.988     | 0.582        | 0.559    |
+| gemstone | 0.349      | 0.449     | 0.020        | 0.007    |
+| seahorse | 0.843      | 0.962     | 0.615        | 0.636    |
+| shell    | 0.393      | 0.725     | 0.052        | 0.025    |
+| starfish | 0.526      | 0.800     | 0.202        | 0.128    |
+| toffees  | 0.845      | 0.959     | 0.460        | 0.391    |
+| MEAN     | 0.625      | 0.758     | 0.205        | 0.166    |
+
+Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network [[paper]](https://arxiv.org/abs/2311.14897)[[code]](https://github.com/Chopper-233/Anomaly-ShapeNet)
+
+
 ### The 3D anomaly detection performance when using 4 prototypes for training.
 
 | Object AUROC | BTF_FPFH | BTF_Raw | M3DM_PointMAE | M3DM_PointBERT | PatchCore+FPFH | PatchCore+FPFH+raw | PatchCore+PointMAE | Our baseline |
