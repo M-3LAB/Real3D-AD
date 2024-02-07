@@ -377,3 +377,16 @@ Thanks to all the people who worked hard to capture the data, especially Xinyu T
 
 ## License
 The dataset is released under the CC BY 4.0 license.
+
+## BibTex Citation
+
+If you find this paper and repository useful, please cite our paper☺️.
+
+```
+@inproceedings{liu2023real3d,
+  title={Real3D-AD: A Dataset of Point Cloud Anomaly Detection},
+  author={Liu, Jiaqi and Xie, Guoyang and Li, Xinpeng and Wang, Jinbao and Liu, Yong and Wang, Chengjie and Zheng, Feng and others},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year={2023}
+}
+```
