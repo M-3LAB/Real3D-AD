@@ -114,7 +114,7 @@ The anotation process of point cloud is shown in the figure below.
 
 + beseline methods
   
-We take BTF and M3DM as basic baseline methods, and improve baseline using PatchCore and .
+We take BTF and M3DM as basic baseline methods, and improve baseline using PatchCore.
 
 + metrics
   
@@ -123,7 +123,10 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 + benchmark results
 
 ### Other methods on Real3D-AD
-Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection [[paper]](https://arxiv.org/abs/2303.13194)[[code]](https://github.com/caoyunkang/CPMF)
+
+Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection [[paper 2023]](https://arxiv.org/abs/2303.13194)[[code]](https://github.com/caoyunkang/CPMF)
+Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network [[paper 2023]](https://arxiv.org/abs/2311.14897)[[code]](https://github.com/Chopper-233/Anomaly-ShapeNet)
++ PointCore: Efficient Unsupervised Point Cloud Anomaly Detector Using Local-Global Features [[paper 2024]](https://arxiv.org/abs/2403.01804)
 
 |          | Object AUROC | Point AUROC | Max F1 Point | Point AP |
 |----------|------------|-----------|--------------|----------|
